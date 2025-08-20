@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<title>css使用方式演示入口</title>
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@5"
+		  rel="stylesheet"
+		  type="text/css" />
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+		  rel="stylesheet"
+		  type="text/css" />
+</head>
+
+<body class="bg-zinc-100 min-h-screen p-0 m-0">
+	<div class="container m-auto p-2">
+		<h1 class="text-center text-shadow-2xs font-medium text-xl py-4">
+			css使用方式演示入口
+		</h1>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+
+			<div class="card bg-white rounded-lg card-md shadow">
+				<div class="card-body p-2">
+					<h3 class="card-title">link方式引入css</h3>
+					<p>通过link标签引入外部CSS文件，通过行内样式定义CSS</p>
+					<div class="justify-end card-actions">
+						<a href="./link/index.html"
+						   class="btn btn-primary">查看</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card bg-white rounded-lg card-md shadow">
+				<div class="card-body p-2">
+					<h3 class="card-title">Bootstrap</h3>
+					<p>基于 Sass 进行编译和定制、内置的网格系统和组件、强大的 JavaScript 插件</p>
+					<div class="justify-end card-actions">
+						<a href="./bootcss/index.html"
+						   class="btn btn-primary">查看</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card bg-white rounded-lg card-md shadow">
+				<div class="card-body p-2">
+					<h3 class="card-title">预编译：less</h3>
+					<p>预编译：less</p>
+					<div class="justify-end card-actions">
+						<a href="./less/index.html"
+						   class="btn btn-primary">查看</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card bg-white rounded-lg card-md shadow">
+				<div class="card-body p-2">
+					<h3 class="card-title">预编译：sass</h3>
+					<p>预编译：sass</p>
+					<div class="justify-end card-actions">
+						<a href="./sass/index.html"
+						   class="btn btn-primary">查看</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card bg-white rounded-lg card-md shadow">
+				<div class="card-body p-2">
+					<h3 class="card-title">tailwindcss</h3>
+					<p>tailwindcss</p>
+					<div class="justify-end card-actions">
+						<a href="./tailwindcss/index.html"
+						   class="btn btn-primary">查看</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card bg-white rounded-lg card-md shadow">
+				<div class="card-body p-2">
+					<h3 class="card-title">unocss</h3>
+					<p>unocss</p>
+					<div class="justify-end card-actions">
+						<a href="./unocss/index.html"
+						   class="btn btn-primary">查看</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>

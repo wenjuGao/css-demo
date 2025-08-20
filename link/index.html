@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<title>link方式引入css</title>
+	<link rel="stylesheet"
+		  href="./index.css">
+	<style>
+		.title[data-test] {
+			color: brown;
+		}
+
+
+		.item:last-child {
+			border: 1px solid red;
+			padding: 10px;
+			margin-top: 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="layout">
+		<div class="item">
+			<div class="title">link方式引入css</div>
+			<div class="desc">通过link标签引入外部CSS文件</div>
+		</div>
+		<div class="item">
+			<div class="title"
+				 data-test>行内样式</div>
+			<div class="desc"
+				 style="color: darkgray;">通过行内样式定义CSS</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+	"name": "unocss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "unocss 'index.html' --watch --output uno.css"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@unocss/cli": "^66.4.2",
+		"unocss": "^66.4.2"
+	}
+}

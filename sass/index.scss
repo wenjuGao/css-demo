@@ -1,0 +1,43 @@
+$primary-color: #666;
+
+@mixin ellipsis-mixin($line: 2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .item {
+        width: 300px;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: $primary-color;
+        }
+
+        .desc {
+            font-size: 14px;
+            color: #666;
+            @include ellipsis-mixin(2);
+        }
+
+        &:last-child {
+            .desc {
+                @include ellipsis-mixin(3);
+            }
+        }
+
+    }
+
+}
