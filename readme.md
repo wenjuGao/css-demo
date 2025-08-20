@@ -203,7 +203,7 @@ export default defineConfig({
 
 ## 第七部分：总结与参考链接
 
-从 2004 年手写 link 到今天原子化，CSS 的抽象层级一路下降，灵活度一路上升。原子化 CSS 让样式管理变得更高效和可控。
+link 到今天原子化，CSS 的抽象层级一路下降，灵活度一路上升。原子化 CSS 让样式管理变得更高效和可控。
 
 -   [Tailwind 官方文档](https://tailwindcss.com/docs/just-in-time-mode)
 -   [UnoCSS 官方文档](https://unocss.dev)
