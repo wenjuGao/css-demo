@@ -1,12 +1,8 @@
 {
 	"version": 2,
 	"builds": [
-		{ "src": "unocss/index.html", "use": "@vercel/static" },
-		{ "src": "bootcss/index.html", "use": "@vercel/static" },
-		{ "src": "less/index.html", "use": "@vercel/static" },
-		{ "src": "link/index.html", "use": "@vercel/static" },
-		{ "src": "sass/index.html", "use": "@vercel/static" },
-		{ "src": "tailwindcss/index.html", "use": "@vercel/static" }
+		{ "src": "**/*.{html,css}", "use": "@vercel/static" },
+		{ "src": "*.{html,css}", "use": "@vercel/static" }
 	],
 	"routes": [{ "src": "/(.*)", "dest": "/$1" }]
 }
